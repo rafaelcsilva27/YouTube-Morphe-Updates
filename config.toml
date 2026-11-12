@@ -1,61 +1,14 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-
 cli-source = "MorpheApp/morphe-desktop"
 cli-version = "dev"
-
-[YouTube-Extended]
-enabled = true
-app-name = "YouTube"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-# version = "20.51.39"
-patches-source = "anddea/revanced-patches"
-patches-version = "dev"
-archive-dlurl = "https://archive.org/download/crimsonman/apks/com.google.android.youtube"
-# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-addon-patches = "bin/update-check.mpp"
-
-[YouTube-Music-Extended]
-enabled = true
-app-name = "YouTube Music"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
-# version = "9.15.51"
-patches-source = "anddea/revanced-patches"
-patches-version = "dev"
-archive-dlurl = "https://archive.org/download/crimsonman/apks/com.google.android.apps.youtube.music"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-included-patches = "'Disable music video in album'" 
-addon-patches = "bin/update-check.mpp"
 
 [YouTube-Morphe]
 enabled = true
 app-name = "YouTube"
 rv-brand = "Morphe"
-build-mode = "both"
-# version = "21.07.247"
-patches-source = "sashade8-ship-it/dual-vot-patches"
-patches-version = "dev"
-archive-dlurl = "https://archive.org/download/crimsonman/apks/com.google.android.youtube"
-# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-addon-patches = "bin/update-check.mpp"
-patcher-args = '-O appIcon=original -e "Custom branding"'
-
-[YouTube-Music-Morphe]
-enabled = true
-app-name = "YouTube Music"
-rv-brand = "Morphe"
-build-mode = "both"
-arch = "both"
-# version = "9.15.51"
+build-mode = "module"
 patches-source = "MorpheApp/morphe-patches"
 patches-version = "dev"
-archive-dlurl = "https://archive.org/download/crimsonman/apks/com.google.android.apps.youtube.music"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-addon-patches = "bin/update-check.mpp"
+archive-dlurl = "https://archive.org/download/crimsonman/apks/com.google.android.youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 patcher-args = '-O appIcon=original -e "Custom branding"'
