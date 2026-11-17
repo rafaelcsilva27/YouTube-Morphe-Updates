@@ -1,6 +1,6 @@
 ## YouTube Morphe
-* **Version:** v21.30.216 (p2.3.0 b11)
-* **Release:** [#11](https://github.com/rafaelcsilva27/YouTube-Morphe-Updates/releases/tag/11)
+* **Version:** v21.30.216 (p2.4.0-dev.1 b12)
+* **Release:** [#12](https://github.com/rafaelcsilva27/YouTube-Morphe-Updates/releases/tag/12)
 
 ### Release Notes:
 YouTube-Morphe: 21.30.216  
@@ -9,5 +9,5 @@ Install instructions: [NonRoot](https://github.com/rafaelcsilva27/YouTube-Morphe
   
 CLI: MorpheApp/morphe-desktop/morphe-desktop-2.3.0-dev.2-all.jar  
   
-Patches: MorpheApp/morphe-patches/patches-2.3.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0)  
+Patches: MorpheApp/morphe-patches/patches-2.4.0-dev.1.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.4.0-dev.1)  
