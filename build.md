@@ -4,5 +4,5 @@ Install instructions: [NonRoot](https://github.com/rafaelcsilva27/YouTube-Morphe
   
 CLI: MorpheApp/morphe-desktop/morphe-desktop-2.3.0-dev.3-all.jar  
   
-Patches: MorpheApp/morphe-patches/patches-2.4.0-dev.5.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.4.0-dev.5)  
+Patches: MorpheApp/morphe-patches/patches-2.4.0-dev.6.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.4.0-dev.6)  
